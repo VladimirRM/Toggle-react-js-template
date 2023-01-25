@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './App.css'
 
 const App = () => {
   const [showMode, setShowMode] = useState(true);
@@ -19,7 +20,7 @@ const App = () => {
   return <div>
 
     <button onClick={handleClick}>Show toggle</button>
-    {showMode} </div>;
+    {content} </div>;
 };
 
 export default App;
