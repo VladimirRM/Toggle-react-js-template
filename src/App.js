@@ -16,7 +16,10 @@ const App = () => {
     
     </>
   }
-  return <div></div>;
+  return <div>
+
+    <button onClick={handleClick}>Show toggle</button>
+    {showMode} </div>;
 };
 
 export default App;
